@@ -60,16 +60,30 @@ footer {
   color: #ddd;
   flex-direction: row;
   align-items: center;
-  margin: 0 auto;
-  height: 70px;
   justify-content: space-between;
-  
+  height: 50px;
+  padding: 10px 20px;
 }
+#contato{
+  padding-left: 20px;
+}
+#email a{
+  color:#fff
+}
+#social {
+  padding-right: 20px;
+}
+#social img{
+  width: 20px;
+  margin-left: 10px;
+}
+
 #logo {
   width: 100px;
   height: 100px;
   align-items:center;
 }
+
 #menu {
   list-style: none;
   display: flex;
@@ -78,15 +92,18 @@ footer {
   gap: 10px;
   padding: 25px;
 }
+
 #principal{
   width: 1000px;
   height: 700px;
 }
+
 figure{
   display:flex;
   width: 500px;
   height: 500px;
 }
+
 #sec_ctd{
   justify-content: space-around;
   gap:5px;
@@ -103,29 +120,50 @@ h1{
   width: 500px;
   text-align: justify;
 }
+
 #second{
   width: 1000px;
   height: 700px;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 #second img{
   display: flex;
   width:200px;
 }
-#social {
-  display: flex;
-  flex-direction: row;
-}
-#social img{
-  width: 20px;
 
-}
-
-#email a{
-  color:#fff
-}
 #descricao{
-
+  border: none;
+  box-shadow: 0 0 2px rgb(0,0,0,0.15);
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #fff;
+  text-align: justify;
+  margin: 0 auto;
+  font-size: 14px;
+  box-sizing: border-box;
 }
+#descricao iframe{
+  border: 2px solid black;
+  padding: 1px;
+  background-color: #fff;
+  text-align: center;
+}
+
+#acesso{
+  padding: 35px 65px;
+  border-radius: 5px;
+  font-family:'Amatic SC';
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  box-shadow: 2px 2px 10px rgb(48, 44, 44);
+}
+#acesso a {
+  color: white;
+  text-decoration: none;
+  margin: 6px 0;
+}
+
 
 
